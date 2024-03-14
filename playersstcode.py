@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-data=pd.read_csv(r'C:\Users\Matt Tierney\OneDrive - Bentley University\Sports Analytics Projects\Players Championship Model\ShinyFinal.csv')
+data=pd.read_csv('ShinyFinal.csv')
 
 st.title('2024 Players Championship Model Results')
 st.dataframe(data)
